@@ -5,7 +5,8 @@ Rails.application.routes.draw do
 
   resources :users do
     resources :projects
-    resources :skills
   end
+
+  root 'projects#index'
 
 end
