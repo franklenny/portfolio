@@ -1,30 +1,33 @@
 class ProjectsController < ApplicationController
   def index
-    @project = Project.all
+    @projects = Project.all
   end
 
   def new
+    @project = Project.new
   end
 
   def create
-  end
+    @project = Project.new(project_params)
 
-  def show
+    if @project.save
+      redirect_to projects_path
+    else
+      render 'new'
+    end
+
   end
 
   def edit
+    @project = Project.find(params[:id])
   end
 
   def update
-
-  end
-
-  def delete
+    @project = Project.find(params[:id])
   end
 
   private
 
   def project_params
   end
-
 end

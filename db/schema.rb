@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20171013204641) do
     t.string "image_url"
     t.string "description"
     t.string "link_to_project"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
