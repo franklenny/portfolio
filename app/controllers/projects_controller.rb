@@ -9,11 +9,12 @@ class ProjectsController < ApplicationController
 
   def create
     @project = Project.new(project_params)
+    p @project.errors.full_messages
 
     if @project.save
-      redirect_to projects_path
+      redirect_to root_path
     else
-      render 'new'
+      render new_project_path
     end
 
   end
@@ -29,5 +30,6 @@ class ProjectsController < ApplicationController
   private
 
   def project_params
+    params.require(:project).permit(:user_id, :name, :image_url, :description, :link_to_project)
   end
 end

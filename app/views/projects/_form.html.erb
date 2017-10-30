@@ -1,0 +1,37 @@
+<%= form_for @project do |f| %>
+
+<% if @project.errors.any? %>
+  <% @project.errors.full_messages.each do |error| %>
+     <%= error %>
+  <% end %>
+<% end %>
+
+  <div>
+  	<%= f.label :name %>
+  	<%= f.text_field :name %>
+  </div>
+
+  <div>
+  	<%= f.label :image_url %>
+  	<%= f.text_area :image_url %>
+  </div>
+
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+
+  <div>
+    <%= f.label :link_to_project  %>
+    <%= f.text_area :link_to_project%>
+  </div>
+
+  <div>
+    <%= f.label :user_id %>
+    <%= f.text_field :user_id, value: '1' %>
+  </div>
+
+
+  <%= f.submit 'Save', class: 'btn btn-primary btn-block' %>
+
+<% end %>

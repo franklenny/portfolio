@@ -10,9 +10,21 @@
 //   overflow-y:hidden
 // }
 //
-.project_image {
+.project_information {
+  margin: 2px;
+  display: inline-block;
+  text-align: center
+}
+
+img {
   width: 250px;
   height: 200px;
-  margin: auto;
+}
 
+#scrollable {
+  overflow-x: scroll;
+  overflow-y: auto;
+  width:75%;
+  height:300px;
+  white-space: nowrap
 }
