@@ -1,0 +1,30 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//
+//
+// .project-container {
+//   max-height: 300px;
+//   overflow: scroll;
+//   overflow-x: scroll;
+//   overflow-y:hidden
+// }
+//
+.project_information {
+  margin: 2px;
+  display: inline-block;
+  text-align: center
+}
+
+img {
+  width: 250px;
+  height: 200px;
+}
+
+#scrollable {
+  overflow-x: scroll;
+  overflow-y: auto;
+  width:75%;
+  height:300px;
+  white-space: nowrap
+}
