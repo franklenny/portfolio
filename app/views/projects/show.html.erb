@@ -1,0 +1,7 @@
+<h1> I'm the project show page </h1>
+
+<p><%= @project.name %></p>
+<p><%= @project.description %></p>
+
+
+<%= link_to 'Delete', project_path(@project), method: :delete, data: { confirm: 'Are you sure?' }%>

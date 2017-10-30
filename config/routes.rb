@@ -7,6 +7,11 @@ Rails.application.routes.draw do
     resources :projects
   end
 
+  get '/login' => 'sessions#new'
+  post   '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+  delete '/logout' => 'sessions#destroy'
+  
   root 'projects#index'
 
 end
