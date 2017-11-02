@@ -7,14 +7,19 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
-
+  <nav>
+    <% if !logged_in? %>
+      <a href="<%= login_path %>">Log In</a>
+    <% else %>
+     <a href="/logout"> Log out</a>
+    <% end %>
+  </nav>
   <body>
     <div class='container'>
       <%= yield %>
     </div>
-    <footer>
-      <p> <a href="<%= login_path %>">Log In Now </p>
-      <p> <a href="<%= logout_path %>">Log out </p>
-    </footer>
+
+
+
   </body>
 </html>
