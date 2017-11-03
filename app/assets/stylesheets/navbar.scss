@@ -1,0 +1,21 @@
+.navigation-custom-bar {
+  border-bottom: 2px gray solid;
+}
+.nav-item {
+  padding-right: .6em;
+  list-style-type: none;
+  float: right
+}
+
+.name {
+  text-align: right
+}
+
+.LinkedinImage {
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  max-width: 160px;
+  max-height: 160px;
+}
