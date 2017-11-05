@@ -11,14 +11,15 @@
 // }
 //
 .project_information {
-  margin: 2px;
+  margin-left: 10px;
   display: inline-block;
-  text-align: center
+  text-align: center;
+  padding-left: 40px;
 }
 
 img {
-  width: 250px;
-  height: 200px;
+
+  max-width: 350px
 }
 
 #scrollable {
