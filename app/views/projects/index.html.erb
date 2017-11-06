@@ -1,25 +1,65 @@
 <div>
   <div class='about_me section'>
     <h1> Hi. I'm Faye Hayes. Let's Build Together.</h1>
-    <em> Passionate about mentorship, creativity, and growth, I'm looking for opportunities that prioritize employee retention. </em>
+    <em> Passionate about mentorship and exploration, I'm looking for opportunities that prioritize employee growth and retention. </em>
   </div>
 
-  <br>
-
-  <div class='section' id='skills'>
-    <h3> What I do </h3>
-    <b> Technologies: </b>
-    <p> Ruby on Rails,Javascript, React JS, React Native, AJAX, JSON, HTML/CSS, RSpec, jQuery, Active Record, RESTful APIs, Postgres, Version Control, MySQL </p>
-    <b> Practices: </b>
-    <p> Pair Programming, Agile, TDD/ BDD, Object Oriented Design, MVC Design </p>
-  </div>
-  <br>
+  <br><br><br>
+  <h2> My Projects </h2>
   <div class='container-fluid projects_section'>
     <div class='row' >
         <%= render @projects %>
     </div>
   </div>
 
+  <br><br><br>
+
+  <div class='section container' id='skills'>
+    <h3>I'm comfortable with: </h3>
+    <div class="col-md-2">
+      <b> Frameworks: </b>
+      <ul>
+        <li> Rails </li>
+        <li> Sinatra </li>
+        <li> Bootstrap </li>
+        <li> React Native </li>
+      </ul>
+  </div>
+  <div class="col-md-2">
+    <b> Languages/Libraries: </b>
+    <ul>
+      <li> Ruby </li>
+      <li> Javascript </li>
+      <li> React.js </li>
+      <li> jQuery </li>
+      <li> HTML5 </li>
+      <li> CSS </li>
+    </ul>
+</div>
+  <div class="col-md-2">
+    <b> Practices: </b>
+    <ul>
+      <li>Pair Programming</li>
+      <li>Agile</li>
+      <li>TDD/BDD</li>
+      <li>Object Oriented Design</li>
+      <li>MVC</li>
+    </ul>
+  </div>
+  <div class="col-md-2">
+    <b> Other: </b>
+    <ul>
+      <li> RSpec </li>
+      <li> AJAX </li>
+      <li> JSON data manipulation </li>
+      <li> Relational Database </li>
+      <li> MySQL, Postgres </li>
+      <li> Version Control(git) </li>
+      <li> RESTful APIs </li>
+    </ul>
+</div>
+  </div>
+  <br>
 
   <p> <%= link_to "+", new_project_path if logged_in? %> <p>
 </div
