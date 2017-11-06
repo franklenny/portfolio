@@ -1,4 +1,11 @@
-<div class="row project_information">
-  <h4> <%= project.name %> </h4>
-  <a href="projects/<%= project.id %>"><img src="<%= project.image_url %>" alt="image" class="project_image"></a>
+<div class="col-md-4 project_information">
+
+  <h3> <%= project.name %> </h3>
+  <div class="project_image_container">
+    <a href="projects/<%= project.id %>"><img src="<%= project.image_url %>" alt="image" class="project_image"></a>
+  </div>
+  <h4> Stack: </h4>
+
+  <p> <%= project.tech_stack %> </p>
+
 </div>

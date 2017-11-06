@@ -11,15 +11,32 @@
 // }
 //
 .project_information {
-  margin-left: 10px;
+  margin-left: auto;
   display: inline-block;
   text-align: center;
   padding-left: 40px;
 }
 
-img {
+.project_information h4 {
+  display: block;
+  
+}
 
-  max-width: 350px
+.project_image {
+
+  margin: auto
+}
+
+.project_image_container {
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  display: inline-block;
+}
+
+img {
+  max-width: 350px;
+  max-height: 200px;
 }
 
 #scrollable {
