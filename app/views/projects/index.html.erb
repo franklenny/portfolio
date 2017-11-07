@@ -1,64 +1,73 @@
 <div>
-  <div class='about_me section'>
+  <div class='about_me container'>
+    <div class='container'>
     <h1> Hi. I'm Faye Hayes. Let's Build Together.</h1>
-    <em> Passionate about mentorship and exploration, I'm looking for opportunities that prioritize employee growth and retention. </em>
+    <h4> Passionate about mentorship and exploration, I'm looking for opportunities that prioritize employee growth and retention. </h4>
   </div>
+</div>
+
 
   <br><br><br>
-  <h2> My Projects </h2>
-  <div class='container-fluid projects_section'>
-    <div class='row' >
-        <%= render @projects %>
+  <div class='section'>
+    <h2> Portfolio </h2>
+    <div class='container-fluid projects_section'>
+      <div class='row' >
+          <%= render @projects %>
+      </div>
     </div>
   </div>
 
   <br><br><br>
 
-  <div class='section container' id='skills'>
-    <h3>I'm comfortable with: </h3>
-    <div class="col-md-2">
-      <b> Frameworks: </b>
-      <ul>
+<div class='section container' id='skills'>
+  <h2>My Stack</h2>
+  <Br>
+  <div class='row '>
+    <div class="skills col-sm-6 mx-auto text-center">
+
+      <ul class='list-of-skills'>
+        <li> <h4>Frameworks: </h4></li>
         <li> Rails </li>
         <li> Sinatra </li>
         <li> Bootstrap </li>
         <li> React Native </li>
       </ul>
+    </div>
+    <div class="col-sm-6 mx-auto text-center">
+      <ul class='list-of-skills'>
+        <li><h4>Languages/Libraries: </h4></li>
+        <li> Ruby </li>
+        <li> Javascript </li>
+        <li> React.js </li>
+        <li> jQuery </li>
+        <li> HTML5 </li>
+        <li> CSS </li>
+      </ul>
+    </div>
+    <div class="col-sm-6 mx-auto text-center">
+      <ul class='list-of-skills'>
+        <li><h4>Practices: </h4></li>
+        <li>Pair Programming</li>
+        <li>Agile</li>
+        <li>TDD/BDD</li>
+        <li>Object Oriented Design</li>
+        <li>MVC</li>
+      </ul>
+    </div>
+    <div class="col-sm-6 mx-auto text-center">
+      <ul class='list-of-skills'>
+        <li><h4>Other: </h4></li>
+        <li> RSpec </li>
+        <li> AJAX </li>
+        <li> JSON data manipulation </li>
+        <li> Relational Database </li>
+        <li> MySQL, Postgres </li>
+        <li> Version Control(git) </li>
+        <li> RESTful APIs </li>
+      </ul>
+    </div>
   </div>
-  <div class="col-md-2">
-    <b> Languages/Libraries: </b>
-    <ul>
-      <li> Ruby </li>
-      <li> Javascript </li>
-      <li> React.js </li>
-      <li> jQuery </li>
-      <li> HTML5 </li>
-      <li> CSS </li>
-    </ul>
 </div>
-  <div class="col-md-2">
-    <b> Practices: </b>
-    <ul>
-      <li>Pair Programming</li>
-      <li>Agile</li>
-      <li>TDD/BDD</li>
-      <li>Object Oriented Design</li>
-      <li>MVC</li>
-    </ul>
-  </div>
-  <div class="col-md-2">
-    <b> Other: </b>
-    <ul>
-      <li> RSpec </li>
-      <li> AJAX </li>
-      <li> JSON data manipulation </li>
-      <li> Relational Database </li>
-      <li> MySQL, Postgres </li>
-      <li> Version Control(git) </li>
-      <li> RESTful APIs </li>
-    </ul>
-</div>
-  </div>
   <br>
 
   <p> <%= link_to "+", new_project_path if logged_in? %> <p>

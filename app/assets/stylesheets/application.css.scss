@@ -17,14 +17,26 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+}
+
 .about_me {
   text-align: center;
+
 }
 
 .about_me em {
   font-size: 1.5em;
 }
 
-.section {
-  margin: 0 auto
+h2 {
+  text-align: center;
+}
+
+#skills h3 {
+  text-align: center;
+}
+
+.list-of-skills li {
+  list-style-type: none;
 }
