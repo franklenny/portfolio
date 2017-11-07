@@ -18,5 +18,10 @@
 
 
 $document.ready() {
-  
+
 }
+
+$('div#project_image_container').on('mouseover', function(e) {
+  e.preventDefault()
+  
+})

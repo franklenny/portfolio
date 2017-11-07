@@ -1,24 +1,8 @@
-# README
+# My Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### This repo is a fun way for me to share my projects. I decided to build this portfolio from scratch rather than use a template to:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Build another app!
+2. Have fun with frontend styling
+3. Reflect on my projects thus far and create a vision of where I'd like to go.
