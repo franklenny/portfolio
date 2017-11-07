@@ -6,3 +6,6 @@
 1. Build another app!
 2. Have fun with frontend styling
 3. Reflect on my projects thus far and create a vision of where I'd like to go.
+
+
+Note: site not active yet. 
