@@ -15,3 +15,8 @@
 //= require jquery-ujs
 //= require turbolinks
 //= require_tree .
+
+
+$document.ready() {
+  
+}
