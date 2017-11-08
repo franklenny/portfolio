@@ -15,13 +15,3 @@
 //= require jquery-ujs
 //= require turbolinks
 //= require_tree .
-
-
-$document.ready() {
-
-}
-
-$('div#project_image_container').on('mouseover', function(e) {
-  e.preventDefault()
-  
-})
