@@ -4,8 +4,7 @@ $(document).ready(function() {
 })
 
 var projectImageListener = function () {
-  $('.project_image_container').on("mouseover", function(e) {
-    // $(this).children().closest('div').toggleClass('show')
-    console.log($(this).children().closest('div').children('p').toggleClass('hide'))
+  $('.project_image_container').on("mouseenter", function(e) {
+    $(this).children().closest('div').children('p').removeClass('hide')
   })
 }
