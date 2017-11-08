@@ -54,3 +54,14 @@ img {
 .hide {
   display: none;
 }
+
+.text {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  width: 80%
+}
+
+.project_image:hover {
+  opacity: 0.5;
+}
