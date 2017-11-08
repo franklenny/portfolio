@@ -2,47 +2,35 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //
-//
-// .project-container {
-//   max-height: 300px;
-//   overflow: scroll;
-//   overflow-x: scroll;
-//   overflow-y:hidden
-// }
-//
+
 .project_information {
   margin-left: auto;
+  padding-top: 30px;
   display: inline-block;
   text-align: center;
   padding-left: 40px;
-}
-
-.projects_section {
   border-top: 3px #f8b195 solid;
 }
 
 .project_information h4 {
   display: block;
-
 }
 
 .project_image {
-  margin: auto
+  margin: auto;
 }
 
 .project_image_container {
   width: 350px;
-  height: 200px;
+  height: 250px;
   margin: auto;
   display: inline-block;
 }
-
 
 img {
   max-width: 350px;
   max-height: 200px;
 }
-
 #scrollable {
   overflow-x: scroll;
   overflow-y: auto;
@@ -50,6 +38,7 @@ img {
   height:300px;
   white-space: nowrap
 }
+
 
 .hide {
   display: none;
@@ -59,7 +48,8 @@ img {
   position: absolute;
   text-align: center;
   top: 45%;
-  width: 80%
+  width: 80%;
+  padding: 0
 }
 
 .project_image:hover {
