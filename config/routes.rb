@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :contact_forms
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :projects
   resources :skills
@@ -11,7 +13,7 @@ Rails.application.routes.draw do
   post   '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
   delete '/logout' => 'sessions#destroy'
-  
+
   root 'projects#index'
 
 end
