@@ -1,6 +1,7 @@
 class ProjectsController < ApplicationController
   def index
     @projects = Project.all
+    @contact_form = ContactForm.new
   end
 
   def new
