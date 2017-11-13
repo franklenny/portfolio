@@ -8,4 +8,7 @@
 3. Reflect on my projects thus far and create a vision of where I'd like to go.
 
 
-Note: site not active yet. 
+Note: site not active yet.
+
+
+updating the readme as an example!
