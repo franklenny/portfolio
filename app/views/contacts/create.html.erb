@@ -1,0 +1,12 @@
+
+<h1> Thank you for your message.</h1>
+<p> We'll get back to you as soo n as possible. </p>
+<div>
+  <% flash.each do |key, value| %>
+    <div>
+      <a href="#" data-dismiss="alert">×</a>
+        <%= value %>
+    </div>
+  <% end %>
+</div>
+  <%= link_to 'Home', root_url, :class => 'button' %>
