@@ -53,3 +53,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'mail_form'
 gem 'simple_form'
+gem 'rake'
+gem 'rdoc'
+
+gem 'actionmailer'
+gem 'activemodel'
+
+gem "mime-types"

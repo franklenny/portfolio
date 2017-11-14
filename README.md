@@ -9,6 +9,3 @@
 
 
 Note: site not active yet.
-
-
-updating the readme as an example!
