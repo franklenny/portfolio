@@ -60,3 +60,4 @@ gem 'actionmailer'
 gem 'activemodel'
 
 gem "mime-types"
+gem "dotenv"
