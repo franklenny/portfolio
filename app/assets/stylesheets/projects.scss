@@ -6,7 +6,7 @@
 .projects_section {
   border-top: 3px #c06c84 solid;
   padding-top: 30px;
-  overflow: auto;
+  // overflow: auto;
 
 }
 
@@ -44,12 +44,4 @@
 
 .text:hover {
   opacity: 1;
-}
-
-#scrollable {
-  overflow-x: scroll;
-  overflow-y: auto;
-  width:75%;
-  height:300px;
-  white-space: nowrap
 }

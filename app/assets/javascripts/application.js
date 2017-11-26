@@ -15,3 +15,17 @@
 //= require jquery-ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function () {
+  scrollToProjects()
+});
+
+
+var scrollToProjects = function() {
+  $('.projects_button').click(function () {
+      $('html, body').animate({
+          scrollTop: $('.projects_section').offset().top
+      }, 'slow');
+  });
+}
