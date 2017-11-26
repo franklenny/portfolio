@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- 
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -33,6 +33,10 @@
 
 
 #skills h3 {
+  text-align: center;
+}
+
+#skills h2 {
   text-align: center;
 }
 
@@ -67,4 +71,8 @@ button {
 button:hover {
   background: #8fe072;
   text-decoration: none;
+}
+
+#skills {
+  height: 100vh;
 }

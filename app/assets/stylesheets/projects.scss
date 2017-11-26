@@ -8,8 +8,8 @@
 .projects_section {
   border-top: 3px #c06c84 solid;
   padding-top: 30px;
-  // overflow: auto;
-
+  height: 100vh;
+  overflow: scroll;
 }
 
 .project_image_container {

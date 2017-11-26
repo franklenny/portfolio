@@ -19,6 +19,7 @@
 
 $(document).ready(function () {
   scrollToProjects()
+  scrollToTechStack()
 });
 
 
@@ -26,6 +27,14 @@ var scrollToProjects = function() {
   $('.projects_button').click(function () {
       $('html, body').animate({
           scrollTop: $('.projects_section').offset().top
+      }, 'slow');
+  });
+}
+
+var scrollToTechStack = function() {
+  $('.tech_stack_button').click(function () {
+      $('html, body').animate({
+          scrollTop: $('#skills').offset().top
       }, 'slow');
   });
 }

@@ -3,6 +3,7 @@
       <h1> Hi. I'm Faye Hayes. Let's Build Together.</h1><br>
       <h4>Passionate about mentorship and exploration, I'm looking for opportunities that prioritize employee growth and retention. </h4>
       <button class='projects_button'>See some projects!</button>
+
       <br><br><br>
     </div>
     <%= image_tag 'bigtree.png' %>
@@ -15,6 +16,9 @@
       <div class='row justify-content-center' >
           <%= render @projects %>
       </div>
+      <center>
+        <button class='tech_stack_button'>See My Tech Stack</button>
+      </center>
     </div>
   </div>
 
@@ -69,9 +73,11 @@
     </div>
   </div>
 </div>
-  <br>
 
+<br>
+
+<div class='contact_me'>
   <%= render :partial => 'contacts/new' %>
-
+</div>
   <p> <%= link_to "+", new_project_path if logged_in? %> <p>
 </div
