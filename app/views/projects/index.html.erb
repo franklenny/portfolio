@@ -1,12 +1,12 @@
   <div  id='about_me' class='about_me_background'>
     <div class='about_me_text'>
-      <h1> Hi. I'm Faye Hayes. Let's Build Together.</h1><br>
-      <h4>Passionate about mentorship and exploration, I'm looking for opportunities that prioritize employee growth and retention. </h4>
+      <h1> Hi. Let's Build Together.</h1>
+      <h4>Passionate about mentorship and exploration, I'm looking for opportunities that prioritize employee growth and retention. </h4><br>
       <button class='projects_button'>See some projects!</button>
 
       <br><br><br>
     </div>
-    <%= image_tag 'bigtree.png' %>
+    <%= image_tag 'bigtree.png', :id => "bigtree" %>
   </div>
 
 
@@ -15,30 +15,31 @@
     <div class='projects_section'>
       <div class='row justify-content-center' >
           <%= render @projects %>
-      </div>
+      </div><br>
       <center>
         <button class='tech_stack_button'>See My Tech Stack</button>
+        <button class='back_to_top'>Back to Top</button>
       </center>
     </div>
   </div>
 
   <br>
 
-<div class='section container' id='skills'>
-  <h2>My Stack</h2>
+<div class='section' id='skills'>
+  <h2>My Tech Stack</h2>
   <Br>
-  <div class='row '>
-    <div class="skills col-sm-6 mx-auto text-center">
+
+    <div >
 
       <ul class='list-of-skills'>
         <li> <h4>Frameworks: </h4></li>
         <li> Rails </li>
         <li> Sinatra </li>
         <li> Bootstrap </li>
-        <li> React Native </li>
+        <li> React Native </li><br>
       </ul>
     </div>
-    <div class="col-sm-6 mx-auto text-center">
+    <div >
       <ul class='list-of-skills'>
         <li><h4>Languages/Libraries: </h4></li>
         <li> Ruby </li>
@@ -46,20 +47,20 @@
         <li> React.js </li>
         <li> jQuery </li>
         <li> HTML5 </li>
-        <li> CSS </li>
+        <li> CSS </li><br>
       </ul>
     </div>
-    <div class="col-sm-6 mx-auto text-center">
+    <div >
       <ul class='list-of-skills'>
         <li><h4>Practices: </h4></li>
         <li>Pair Programming</li>
         <li>Agile</li>
         <li>TDD/BDD</li>
         <li>Object Oriented Design</li>
-        <li>MVC</li>
+        <li>MVC</li><br>
       </ul>
     </div>
-    <div class="col-sm-6 mx-auto text-center">
+    <div>
       <ul class='list-of-skills'>
         <li><h4>Other: </h4></li>
         <li> RSpec </li>
@@ -71,7 +72,16 @@
         <li> RESTful APIs </li>
       </ul>
     </div>
-  </div>
+    <div>
+      <ul class='list-of-skills'>
+        <li><h4>Currently Exploring:</h4></li>
+        <li> Node.js </li>
+        <li> Ember.js </li>
+        <li> Docker </li>
+        <li> AWS </li>
+      </ul>
+    </div>
+
 </div>
 
 <br>

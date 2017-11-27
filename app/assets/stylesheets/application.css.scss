@@ -18,16 +18,23 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 #about_me {
   height: 80vh;
   width: 100%;
-  background-color: #c06c84;
-  border: 1px solid blue;
+  background-color: #ebcf88;
   position: relative;
 }
 
-.about_me_background img {
-
+#bigtree {
+  float:right;
+  margin-top: 5%;
+  z-index: 0;
+  position: relative;
+  opacity: .5;
 }
 
 .about_me_text {
@@ -36,20 +43,10 @@
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
+  z-index: 2;
+  color: black;
 }
 
-
-#skills h3 {
-  text-align: center;
-}
-
-#skills h2 {
-  text-align: center;
-}
-
-.list-of-skills li {
-  list-style-type: none;
-}
 
 .hidden_info {
   display: none;
@@ -57,10 +54,6 @@
 
 .cus-container {
   background-color:white;
-}
-
-body {
-  // background-color: #c06c84;
 }
 
 button {
@@ -78,8 +71,4 @@ button {
 button:hover {
   background: #8fe072;
   text-decoration: none;
-}
-
-#skills {
-  height: 100vh;
 }
