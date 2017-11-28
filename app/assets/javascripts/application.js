@@ -15,3 +15,36 @@
 //= require jquery-ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function () {
+  scrollToProjects()
+  scrollToTechStack()
+  backToTop()
+
+});
+
+
+var scrollToProjects = function() {
+  $('.projects_button').click(function () {
+      $('html, body').animate({
+          scrollTop: $('.projects_section').offset().top
+      }, 'slow');
+  });
+}
+
+var scrollToTechStack = function() {
+  $('.tech_stack_button').click(function () {
+      $('html, body').animate({
+          scrollTop: $('#skills').offset().top
+      }, 'slow');
+  });
+}
+
+var backToTop = function() {
+  $('.back_to_top').click(function () {
+      $('html, body').animate({
+          scrollTop: $('#navigation').offset().top
+      }, 'slow');
+  });
+}
