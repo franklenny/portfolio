@@ -16,4 +16,12 @@
   border-bottom: 1px #ebcf88 solid;
   padding-top: 5px;
   padding-bottom: 5px;
+  height: 100vh;
+  position: relative;
+}
+
+.skills_text {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
 }
