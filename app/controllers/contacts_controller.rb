@@ -10,12 +10,13 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      respond_to do |format|
-        format.js { render 'contacts/update'}
-      end
+      p "success"
     else
       flash.now[:error] = 'Cannot send message.'
       render :new
+    end
+    respond_to do |format|
+      format.js { render 'contacts/update'}
     end
   end
 end
