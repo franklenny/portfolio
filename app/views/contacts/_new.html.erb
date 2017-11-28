@@ -1,7 +1,7 @@
-<div align="center">
+<div align="center" class="contact_form_container">
   <h3>Contact Faye</h3>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' }, :remote =>true do |f| %>
     <%= f.input :name, :required => true %>
     <%= f.input :email, :required => true %>
     <%= f.input :message,  :required => true %>
@@ -10,7 +10,7 @@
     </div>
     <div>
       </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary simple_submit" %>
     </div>
   <% end %>
 </div>
