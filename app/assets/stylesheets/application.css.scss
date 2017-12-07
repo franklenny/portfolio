@@ -27,7 +27,6 @@ body {
   width: 100%;
   background-color: #ebcf88;
   position: relative;
-  border-top: 1px solid black;
 }
 #about_me h1 {
   font-size: 5em;
@@ -79,4 +78,11 @@ button {
 button:hover {
   background: #8fe072;
   text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+	// top: 0;
+	// height: 70px;
+	// z-index: 200;
 }
