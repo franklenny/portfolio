@@ -8,9 +8,12 @@
   list-style-type: none;
 }
 
+.skills {
+  background-color: #ebcf88;
+  overflow: scroll;
+}
 
 #skills {
-  background-color: #ebcf88;
   font-size: 1em;
   text-align: center;
   border-bottom: 1px #ebcf88 solid;
@@ -18,6 +21,7 @@
   padding-bottom: 5%;
   height: 100vh;
   position: relative;
+
 }
 
 .skills_text {
