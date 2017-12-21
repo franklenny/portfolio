@@ -22,6 +22,7 @@ $(document).ready(function () {
   scrollToTechStack()
   backToTop()
   navScroll()
+  scrollToContact()
 });
 
 
@@ -45,6 +46,14 @@ var backToTop = function() {
   $('.back_to_top').click(function () {
       $('html, body').animate({
           scrollTop: $('#navigation').offset().top
+      }, 'slow');
+  });
+}
+
+var scrollToContact = function() {
+  $('#contact').click(function () {
+      $('html, body').animate({
+          scrollTop: $('.contact_me').offset().top
       }, 'slow');
   });
 }
