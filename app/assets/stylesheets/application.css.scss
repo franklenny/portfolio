@@ -23,10 +23,11 @@ body {
 }
 
 #about_me {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
-  background-color: #ebcf88;
+  background-color: #33454e;
   position: relative;
+  
 }
 #about_me h1 {
   font-size: 5em;
@@ -52,7 +53,7 @@ body {
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
   z-index: 2;
-  color: black;
+  color: #e6a06f;
 }
 
 
