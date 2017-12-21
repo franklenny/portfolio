@@ -42,6 +42,7 @@ body {
   z-index: 0;
   position: relative;
   opacity: .5;
+  overflow: hidden;
 }
 
 .about_me_text {
@@ -68,7 +69,7 @@ button {
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Georgia;
-  color: #141112;
+  color: #6A5e;
   font-size: 16px;
   background: #d2d8db;
   padding: 10px 20px 10px 20px;
