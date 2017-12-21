@@ -3,14 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+*{
+  background-color: #33454e;
+  color: #e6a06f;
+}
 
 .list-of-skills li {
   list-style-type: none;
 }
 
 .skills {
-  background-color: #ebcf88;
-  overflow: scroll;
+  background-color: #33454e;
+  // overflow: scroll;
 }
 
 #skills {
@@ -19,9 +23,10 @@
   border-bottom: 1px #ebcf88 solid;
   padding-top: 5%;
   padding-bottom: 5%;
-  height: 100vh;
+  height: 60vh;
   position: relative;
-
+  color: #e6a06f;
+  overflow-y: scroll;
 }
 
 .skills_text {
@@ -29,4 +34,9 @@
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
 
+}
+
+.skills_text div {
+  float: left;
+  padding: 5px;
 }

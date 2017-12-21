@@ -17,23 +17,31 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Barlow');
 
+* {
+  font-family: 'Barlow', sans-serif;
+}
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
 #about_me {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
-  background-color: #ebcf88;
+  background-color: #33454e;
   position: relative;
+
 }
-#about_me h1 {
+#about_me  h2 {
   font-size: 5em;
+  letter-spacing: 3px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 #about_me h4 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #bigtree {
@@ -52,7 +60,7 @@ body {
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
   z-index: 2;
-  color: black;
+  color: #e6a06f;
 }
 
 
@@ -71,13 +79,14 @@ button {
   font-family: Georgia;
   color: #FFF;
   font-size: 16px;
-  background: #C8CD3B;
+  background: #95a131;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 button:hover {
-  background: #95a131;
+
+  background: #C8CD3B;
   text-decoration: none;
 }
 
