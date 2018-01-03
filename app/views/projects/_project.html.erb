@@ -3,10 +3,10 @@
     <img src="<%= project.image_url %>" alt="image" class="project_image image-responsive "></a>
 
     <div class='text'>
-      <div class='actual_text '>
+      <div class='actual_text conatiner'>
         <h2><%= project.name %></h2>
-        <p><%= project.tech_stack %></p>
-        <p><%= link_to "learn more", project_path(:id => project.id) %></p>
+        <p><%= project.tech_stack %></p><br>
+        <p><%= link_to "LEARN MORE", project_path(:id => project.id) %></p>
       </div>
     </div>
   </div>
