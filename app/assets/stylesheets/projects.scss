@@ -52,15 +52,15 @@
   margin-top: -50px;
   padding: 10px;
   line-height: normal;
-  font-weight: 500;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
   text-align: center;
   text-transform: uppercase;
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  opacity: 1;
-
+  background-color: transparent;
 }
 
 .text p {
@@ -75,10 +75,14 @@
   transform: translateY(100px);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  opacity: 1;
   overflow-wrap: normal;
+  background-color: transparent;
+}
+
+.actual_text {
+  opacity: none;
 }
 
 .text:hover {
-  opacity: .8;
+  opacity: .9;
 }
