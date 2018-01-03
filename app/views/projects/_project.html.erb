@@ -1,10 +1,13 @@
-<div class="col-md-6 project_information">
+<div class="col-md-4 project_information">
   <div class="project_image_container ">
-    <img src="<%= project.image_url %>" alt="image" class=" project_image "></a>
+    <img src="<%= project.image_url %>" alt="image" class="project_image image-responsive "></a>
 
     <div class='text'>
-      <%= project.name %> <br>
-      <%= project.tech_stack %>
+      <div class='actual_text '>
+        <h2><%= project.name %></h2>
+        <p><%= project.tech_stack %></p>
+        <p><%= link_to "learn more", project_path(:id => project.id) %></p>
+      </div>
     </div>
   </div>
 </div>
