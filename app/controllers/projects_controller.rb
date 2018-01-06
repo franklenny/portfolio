@@ -1,4 +1,5 @@
 class ProjectsController < ApplicationController
+  before_action :if_logged_in?, only: [:new, :create, :edit, :update, :delete]
   def index
     @projects = Project.all
     @contact = Contact.new
@@ -49,4 +50,19 @@ class ProjectsController < ApplicationController
   def project_params
     params.require(:project).permit(:user_id, :name, :tech_stack, :image_url, :description, :link_to_project)
   end
+
+  def if_logged_in?
+    if !logged_in?
+      redirect_to root_path
+    end
+  end
+
+  def current_user
+    @user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+
+  def logged_in?
+    !!current_user
+  end
+
 end
