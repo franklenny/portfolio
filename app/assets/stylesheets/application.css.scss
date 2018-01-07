@@ -24,47 +24,52 @@
   font-family: 'Barlow', sans-serif;
 }
 
-#about_me {
-  height: 50vh;
-  width: 100%;
-  background-color: #33454e;
-  position: relative;
+.about_me_text {
+  // height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%; left: 50%;
+  color: #e6a06f;
+  clear: both;
+}
+
+#about_me img {
+  border-radius: 50%;
+  z-index: 101;
+  padding:5px;
+  margin-top: 5px;
+  border:1px solid #5e6063;
+  max-width: 100%;
+  height: auto;
 }
 
 #about_me  h2 {
   font-size: 36px;
   font-size: 5.8vw;
-
   letter-spacing: 3px;
   font-family: 'Kaushan Script', cursive;
 }
 
 #about_me h1 {
-  font-size: 4vh;
+  font-size: 28px;
+  font-size: 4vw;
 }
 
 #about_me h3 {
-  font-size: 28px;
-  font-size: 3vh;
+  font-size: 20px;
+  font-size: 3vw;
 }
 
-#bigtree {
-  float:right;
-  margin-top: 5%;
-  z-index: 0;
-  position: relative;
-  opacity: .5;
-  overflow: hidden;
-}
+// #bigtree {
+//   float:right;
+//   margin-top: 5%;
+//   z-index: 0;
+//   position: relative;
+//   opacity: .5;
+//   overflow: hidden;
+// }
 
-.about_me_text {
-  // margin-top: 25%;
-  text-align: center;
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
-  color: #e6a06f;
-}
 
 
 .hidden_info {
