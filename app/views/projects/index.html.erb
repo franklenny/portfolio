@@ -21,72 +21,73 @@
 
     </div><br>
     <center>
-      <button class='tech_stack_button'>See My Tech Stack</button>
+      <!-- <button class='tech_stack_button'>See My Tech Stack</button> -->
       <button class='back_to_top'>Back to Top</button>
     </center>
   </div>
 
   <br>
 
-<div class='section skills' id='skills'>
-  <div class='skills_text'>
+<div class='skills' id='skills'>
     <br>
-    <h2>My Tech Stack</h2>
+    <center><h2>My Tech Stack</h2></center>
     <br>
-
-      <div>
-        <ul class='list-of-skills'>
-          <li> <h4>Frameworks: </h4></li>
-          <li> Rails </li>
-          <li> Sinatra </li>
-          <li> Bootstrap </li>
-          <li> React Native </li><br>
-        </ul>
+    <div class='container'>
+      <div class='row justify-content-center'>
+        <div class='col-md-4'>
+          <ul class='list-of-skills'>
+            <li> <h4>Frameworks: </h4></li>
+            <li> Rails </li>
+            <li> Sinatra </li>
+            <li> Bootstrap </li>
+            <li> React Native </li><br>
+          </ul>
+        </div>
+        <div class='col-md-4' >
+          <ul class='list-of-skills'>
+            <li><h4>Languages/Libraries: </h4></li>
+            <li> Ruby </li>
+            <li> Javascript </li>
+            <li> React.js </li>
+            <li> jQuery </li>
+            <li> HTML5 </li>
+            <li> CSS </li><br>
+          </ul>
+        </div>
+        <div class='col-md-4' >
+          <ul class='list-of-skills'>
+            <li><h4>Practices: </h4></li>
+            <li>Pair Programming</li>
+            <li>Agile</li>
+            <li>TDD/BDD</li>
+            <li>Object Oriented Design</li>
+            <li>MVC</li><br>
+          </ul>
+        </div>
       </div>
-      <div >
-        <ul class='list-of-skills'>
-          <li><h4>Languages/Libraries: </h4></li>
-          <li> Ruby </li>
-          <li> Javascript </li>
-          <li> React.js </li>
-          <li> jQuery </li>
-          <li> HTML5 </li>
-          <li> CSS </li><br>
-        </ul>
+      <div class="row justify-content-center">
+        <div class='col-md-4'>
+          <ul class='list-of-skills'>
+            <li><h4>Other: </h4></li>
+            <li> RSpec </li>
+            <li> AJAX </li>
+            <li> JSON data manipulation </li>
+            <li> Relational Database </li>
+            <li> MySQL, Postgres </li>
+            <li> Version Control(git) </li>
+            <li> RESTful APIs </li>
+          </ul>
+        </div>
+        <div class='col-md-4'>
+          <ul class='list-of-skills'>
+            <li><h4>Currently Exploring</h4></li>
+            <li>Node.js</li>
+            <li>Ember.js</li>
+            <li>Docker</li>
+            <li>AWS</li>
+          </ul>
+        </div>
       </div>
-      <div >
-        <ul class='list-of-skills'>
-          <li><h4>Practices: </h4></li>
-          <li>Pair Programming</li>
-          <li>Agile</li>
-          <li>TDD/BDD</li>
-          <li>Object Oriented Design</li>
-          <li>MVC</li><br>
-        </ul>
-      </div>
-      <div>
-        <ul class='list-of-skills'>
-          <li><h4>Other: </h4></li>
-          <li> RSpec </li>
-          <li> AJAX </li>
-          <li> JSON data manipulation </li>
-          <li> Relational Database </li>
-          <li> MySQL, Postgres </li>
-          <li> Version Control(git) </li>
-          <li> RESTful APIs </li>
-        </ul>
-      </div>
-      <div>
-        <ul class='list-of-skills'>
-          <li><h4>Currently Exploring:</h4></li>
-          <li> Node.js </li>
-          <li> Ember.js </li>
-          <li> Docker </li>
-          <li> AWS </li>
-        </ul>
-      </div>
-
-    </div>
 </div>
 
 <br><br>
@@ -97,5 +98,6 @@
   <p> <%= link_to "+", new_project_path if logged_in? %> <p>
 </div>
 <center>
+  <button class='back_to_top'>Back to Top</button>
   <br><br><br><br>
 <h4> This site was coded and styled with love by me. <h4></center>

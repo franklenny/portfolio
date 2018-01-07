@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 *{
   background-color: #33454e;
@@ -10,33 +12,38 @@
 
 .list-of-skills li {
   list-style-type: none;
+//   text-align: center;
 }
+//
+// .skills {
+//   background-color: #33454e;
+//   // overflow: scroll;
+// }
 
-.skills {
-  background-color: #33454e;
-  // overflow: scroll;
-}
-
+//
 #skills {
-  font-size: 1em;
-  text-align: center;
-  border-bottom: 1px #ebcf88 solid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  height: 60vh;
-  position: relative;
-  color: #e6a06f;
-  overflow-y: scroll;
+//   font-size: 1em;
+//   text-align: center;
+//   border-bottom: 1px #ebcf88 solid;
+//   border-top: 1px #ebcf88 solid;
+//   padding-top: 5%;
+//   padding-bottom: 5%;
+//   height: 50vh;
+  // position: relative;
+//   color: #e6a06f;
+//   // overflow-y: scroll;
 }
-
-.skills_text {
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
-
-}
-
-.skills_text div {
-  float: left;
-  padding: 5px;
-}
+//
+// .skills_text {
+//   // position: absolute;
+//   top: 50%; left: 50%;
+//   text-align: center;
+//   justify-content: center;
+//   // transform: translate(-50%,-50%);
+//
+// }
+//
+// .skills_text div {
+//   // float: left;
+//   padding: 5px;
+// }
