@@ -50,7 +50,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'autoprefixer-rails'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'mail_form'
@@ -63,3 +63,4 @@ gem 'activemodel'
 
 gem "mime-types"
 gem "dotenv"
+gem "webpacker"
